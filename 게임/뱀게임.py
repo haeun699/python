@@ -21,10 +21,10 @@ pygame.init() # 파이게임 초기값
 
 
      # 배경넣기
-배경 = pygame.image.load("f05118a1b898302738379e146201b621.jpg")
+배경 = pygame.image.load("뱀게임 사진.jpg")
 
      # 배경넣기
-pygame.mixer.music.load("nightlife-michael-kobrin-95bpm-3783 (1).mp3")
+pygame.mixer.music.load("뱀게임 음악.mp3")
 pygame.mixer.music.play(-1)
 점수=0
 속도 = 0
