@@ -23,7 +23,7 @@ def func_c(arr) : # 3단계 함수 : 가장 적게 등장하는 수 세기
     return ret
 
 def solution(arr) :
-    counter = func_c(arr)
+    counter = func_a(arr)
     max_cnt = func_b( counter )
     min_cnt =  func_c( counter )
     return max_cnt // min_cnt # 4단계 : 비율 구하기

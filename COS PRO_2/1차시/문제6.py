@@ -12,8 +12,9 @@ def solution(number):
             current = current // 10 # 현재숫자 // 10 자릿수 내리기
         if temp == count :
             print(i, end= '')
-        print(" ", end='')
-        return count
+        print(" ", end=' ')
+    print(" ")
+    return count
 
 number = 40 # 1 ~ 40
 ret = solution(number)
