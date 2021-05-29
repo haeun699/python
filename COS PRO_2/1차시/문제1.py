@@ -1,6 +1,5 @@
 
 
-
 # 문제1 : 리스트에 저장된 문자열의 갯수를 다시 리스트에 담기
 def solution( shirt_sixe ) : # 함수만들기
     # 지문보고 문제 풀기
@@ -26,6 +25,19 @@ shirt_size = ["XS", "S", "L", "L", "XL", "S"]  # 학생들이 원하는 사이�
 ret = solution(shirt_size)  # 함수 불러내기
 
 print("solution : return value of the function is " , ret , ".")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
